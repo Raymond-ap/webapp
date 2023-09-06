@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useLocation } from 'react-router-dom';
 
-const Checkout = () => {
+export const Checkout = () => {
   const [loading, setLoading] = useState(false);
   const [ShowMessage, setShow] = useState(false);
   const { search } = useLocation();
@@ -204,4 +204,3 @@ const SuccessWrapper = () => (
   </div>
 );
 
-export default Checkout;
