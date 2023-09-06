@@ -121,7 +121,13 @@ const Checkout = () => {
                               className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm shadow-sm outline-none focus:z-10 focus:border-gray-100 focus:ring-gray-100"
                               placeholder="Street Address"
                             />
-                            
+                            <div className="pointer-events-none absolute inset-y-0 left-0 inline-flex items-center px-3">
+                              <img
+                                className="h-4 w-4 object-contain"
+                                src="https://img.icons8.com/color/48/ghana.png"
+                                alt=""
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -144,11 +150,6 @@ const Checkout = () => {
                             Hubtel Balance
                           </span>
                         </div>
-                        <img
-                          className="w-14 object-contain"
-                          src="/images/oG8xsl3xsOkwkMsrLGKM4.png"
-                          alt=""
-                        />
                       </label>
                     </div>
                   </form>
