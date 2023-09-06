@@ -1,8 +1,13 @@
 import { useState } from "react";
+import { useLocation } from 'react-router-dom';
 
 const Checkout = () => {
   const [loading, setLoading] = useState(false);
   const [ShowMessage, setShow] = useState(false);
+  const { search } = useLocation();
+  const number = search.slice(1)
+
+  console.log("check out id", number)
 
   const onSubmit = () => {
     setLoading(true);
