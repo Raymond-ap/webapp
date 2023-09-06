@@ -1,4 +1,3 @@
-import React from 'react'
 import Checkout from './pages/checkout'
 
 function App() {
